@@ -6,8 +6,10 @@
 #                                                              #
 # Autor: Matheus Alves de Souza Marqui                         #
 ################################################################
-soma = 0
-for i in range(0, 64):
-    soma += 2 ** i
+numero = 1
+soma = 1
+for i in range(2, 64):
+    numero *= 2
+    soma += numero
 
 print(f"A soma é : {soma}")
